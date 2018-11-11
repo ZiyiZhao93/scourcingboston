@@ -1,4 +1,4 @@
-d3.csv('../data/food_insecurity.csv', d => {
+d3.csv('food_insecurity.csv', d => {
     if (d.nhd != '') {
       return {
         neighborhood: d.nhd,
